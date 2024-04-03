@@ -11,8 +11,8 @@ public class WordList
   public int numWordsOfLength(int len)
   {
     int words=0;
-    for(int i=myList.size()-1;i>=0;i--){
-      if(myList.get(i).length==len){
+    for(int i=0;i<myList.size();i++){
+      if(myList.get(i).length()==len){
         words++;
       }
     }
